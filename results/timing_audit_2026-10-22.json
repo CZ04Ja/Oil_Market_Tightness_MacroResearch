@@ -1,0 +1,94 @@
+{
+  "data_checks": {
+    "weeks": 968,
+    "daily_to_signal_exact_match": true,
+    "wednesday_fallbacks": 5,
+    "initial_momentum_without_ma": 3
+  },
+  "original_formula": {
+    "SIGNAL_CARRY": {
+      "weeks": 967,
+      "annual_mean_pct": 2.9522576734740964,
+      "mean_vol_ratio": 0.3589261371635681
+    },
+    "SIGNAL_CARRY_MOM": {
+      "weeks": 967,
+      "annual_mean_pct": 8.758120078257207,
+      "mean_vol_ratio": 1.0810173262842666
+    }
+  },
+  "new_forward_proxy": {
+    "SIGNAL_CARRY_0bps": {
+      "weeks": 967,
+      "annual_mean_pct": 2.954128263869091,
+      "mean_vol_ratio": 0.35937097874691726,
+      "cagr_pct": 2.651678593890061,
+      "max_drawdown_pct": -19.765479257820672,
+      "turnover_sum": 128.0
+    },
+    "SIGNAL_CARRY_2.5bps": {
+      "weeks": 967,
+      "annual_mean_pct": 2.782049670280673,
+      "mean_vol_ratio": 0.3384160615762767,
+      "cagr_pct": 2.475230741140244,
+      "max_drawdown_pct": -20.70704545219677,
+      "turnover_sum": 128.0
+    },
+    "SIGNAL_CARRY_5bps": {
+      "weeks": 967,
+      "annual_mean_pct": 2.609971076692255,
+      "mean_vol_ratio": 0.3173893945279305,
+      "cagr_pct": 2.298918320329535,
+      "max_drawdown_pct": -21.638431498045485,
+      "turnover_sum": 128.0
+    },
+    "SIGNAL_CARRY_10bps": {
+      "weeks": 967,
+      "annual_mean_pct": 2.265813889515419,
+      "mean_vol_ratio": 0.27518050706073666,
+      "cagr_pct": 1.946699826571363,
+      "max_drawdown_pct": -23.471065174899852,
+      "turnover_sum": 128.0
+    },
+    "SIGNAL_CARRY_MOM_0bps": {
+      "weeks": 967,
+      "annual_mean_pct": 1.7122941790807056,
+      "mean_vol_ratio": 0.2082657224176308,
+      "cagr_pct": 1.3852495381406094,
+      "max_drawdown_pct": -30.655642470661547,
+      "turnover_sum": 1226.0
+    },
+    "SIGNAL_CARRY_MOM_2.5bps": {
+      "weeks": 967,
+      "annual_mean_pct": 0.06410389986664114,
+      "mean_vol_ratio": 0.007795452001877451,
+      "cagr_pct": -0.272141318845176,
+      "max_drawdown_pct": -40.3736590301493,
+      "turnover_sum": 1226.0
+    },
+    "SIGNAL_CARRY_MOM_5bps": {
+      "weeks": 967,
+      "annual_mean_pct": -1.5840863793474236,
+      "mean_vol_ratio": -0.19228022145260204,
+      "cagr_pct": -1.9040511365192025,
+      "max_drawdown_pct": -48.73751570245092,
+      "turnover_sum": 1226.0
+    },
+    "SIGNAL_CARRY_MOM_10bps": {
+      "weeks": 967,
+      "annual_mean_pct": -4.880466937775552,
+      "mean_vol_ratio": -0.5873511189848276,
+      "cagr_pct": -5.092890369474867,
+      "max_drawdown_pct": -68.59566190931167,
+      "turnover_sum": 1226.0
+    }
+  },
+  "timing_unit_test": true,
+  "limitations": [
+    "same-year country bins remain retrospective",
+    "simple price returns are NOT properly rolled futures or NDF holding PnL",
+    "transaction costs are scenario assumptions, not executed quotes",
+    "no financing, margin cash return or execution model",
+    "turnover uses target-weight changes, not drift-adjusted executed holdings"
+  ]
+}

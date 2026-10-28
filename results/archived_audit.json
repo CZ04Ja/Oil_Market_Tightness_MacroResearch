@@ -1,0 +1,36 @@
+{
+  "audit_date": "2026-10-22",
+  "not_rerun_during_packaging": true,
+  "results": {
+    "oil": {
+      "kind": "Original formula reconstruction and isolated lag diagnostic",
+      "results": {
+        "SIGNAL_CARRY_lag0": {
+          "annual_mean_pct": 2.8425295212377018,
+          "return_vol_ratio": 0.34556301674036755,
+          "log_sum_drawdown_pct": -18.562592033541144,
+          "weeks": 967
+        },
+        "SIGNAL_CARRY_lag1": {
+          "annual_mean_pct": 2.717498178243766,
+          "return_vol_ratio": 0.3302772313102973,
+          "log_sum_drawdown_pct": -21.691062891149553,
+          "weeks": 967
+        },
+        "SIGNAL_CARRY_MOM_lag0": {
+          "annual_mean_pct": 8.51175488099696,
+          "return_vol_ratio": 1.0500546939670063,
+          "log_sum_drawdown_pct": -9.143490463972986,
+          "weeks": 967
+        },
+        "SIGNAL_CARRY_MOM_lag1": {
+          "annual_mean_pct": -0.10484316181041348,
+          "return_vol_ratio": -0.012712129714132929,
+          "log_sum_drawdown_pct": -39.42283253638318,
+          "weeks": 967
+        }
+      },
+      "warning": "Annual country bins, FX conventions, weighted log return and turnover costs remain unresolved. Neither diagnostic is investable performance."
+    }
+  }
+}
