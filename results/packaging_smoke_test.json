@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-10-29",
+  "result": {
+    "synthetic": true,
+    "net_exposure": -1.1102230246251565e-16,
+    "gross_exposure": 1.9999999999999998,
+    "warmup_and_forward_timing": "PASS"
+  }
+}
